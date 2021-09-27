@@ -1,0 +1,14 @@
+local ScreenGui    = Instance.new("ScreenGui")
+local ImageLabel   = Instance.new("ImageLabel")
+local dwCamera     = workspace.CurrentCamera
+local dwRunService = game:GetService("RunService")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageLabel.Parent                 = ScreenGui
+ImageLabel.BackgroundColor3       = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position               = UDim2.new(0.473, 0,0.436, 0)
+ImageLabel.Size                   = UDim2.new(0, 150, 0, 150)
+ImageLabel.Image                  = "http://www.roblox.com/asset/?id=7573947889"
